@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Stockholm" />
         <p className="footer">
-          Coded by
+          This app is coded by
           <a
             href="https://github.com/RanaMohammadi/weather-react"
             target="_blank"
