@@ -45,7 +45,7 @@ export default function Weather(props) {
             autoFocus="on"
             onChange={handleCityChange}
           />
-          <input type="submit" value="Search" />
+          <input type="submit" value="Search" className="searchBotton" />
         </form>
         <WeatherInfo data={weatherData} />
       </div>
